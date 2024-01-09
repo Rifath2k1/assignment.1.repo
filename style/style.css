@@ -18,8 +18,9 @@ margin: 20px 177px 244px ;
     justify-content: center;
     align-items: center;
     background-repeat: no-repeat;
-    height: 600px;
     width: 1320px;
+    height: 600px;
+
 }
 /* offer section */
 .offer{
@@ -47,4 +48,27 @@ margin-top: 6px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.thard-image{
+    background-image: url(../images/Vectorrr.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+    width: 1320px;
+    height: 600px;
+}
+.Welcome{
+    color: #FFF;
+font-family: Merriweather;
+font-size: 64px;
+font-weight: 900;
+line-height: 88px; 
+letter-spacing: 7.04px;
+}
+.desciption{
+    color: rgba(255, 255, 255, 0.80);
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
 }
