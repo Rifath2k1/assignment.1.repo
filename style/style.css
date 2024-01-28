@@ -1,18 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
 
-.header{
-    
-    width: 100%;
+* {
+    font-family: 'Merriweather', serif;
+} 
+ p{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+ }
+main{
+    margin: 50px;
+}
+.banner{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.5)),url(../images/Banner.png);
     height: 100vh;
-    background-image: url(../images/Banner.png);
+    width:auto;
     background-repeat: no-repeat;
-    background-size: auto;
     background-size: cover;
-    border-radius: 16px;
-    display: flex;
+    background-attachment: fixed;
+    background-position: center;
+    text-align: center;
     align-items: center;
-    margin-top: 50px;
+    display: flex;
+    border-radius: 16px;
 
 }
+
 .banner-greeting{
     width: 60%;
     color: white;
@@ -20,22 +33,21 @@
     align-items: center;
     flex-direction: column;
     margin: auto;
-    padding-top: 0px;
+    padding-top: 78px;
 }
 .banner-greeting h3{
     color: #FFF;
     font-size: 32px;
-    margin: 0;
     text-align: center;
-    margin-top: 0px;
-
+    font-weight: 400;
 
 }
 .banner-greeting h1{
     color: #FFF;
     text-align: center;
     font-size: 72px;
-    margin-bottom: 177p;
+    margin-top: -10px;
+    font-weight: 800;
 }
 /* offer section */
 .offer{
@@ -43,7 +55,7 @@
 text-align: center;
 font-size: 88px;
 font-weight: 700;
-margin-top: 70px;
+margin-top: 80px;
 
 }
 .deals{
@@ -68,16 +80,14 @@ margin-top: 6px;
 .explore{
     width:100%;
     height:100vh;
-    background-image: url(../images/Vectorrr.png);
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.5)), url(../images/Vectorrr.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     border-radius: 16px;
     display: flex;
     align-items: center;
-    margin-top:50px;
-
-
+    margin-top:80px;
 }
 .explore-content {
     color: #FFF;
@@ -89,18 +99,223 @@ margin-top: 6px;
 }
 .explore-content h1 {
     color: #FFF;
-font-size: 7vmin;
-margin: 5px;
+    font-size: 4rem;
+    margin: 5px;
 }
 .explore-content p {
     color: rgba(255, 255, 255, 0.80);
-    font-size: 18px;
+    font-size: 1.12;
     line-height: 30px;
     margin-top: 40px;
+    font-weight: 400px;
+    margin-top: 14px;
+}
+
+.explore a{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.25rem;
 }
 .explore-content .ctn{
     margin-top: 40px;
     color: #FFF;
     margin-top:auto;
     font-size: larger;
+} 
+/* new park hotle */
+.new-park{
+   
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    text-align: center;
+    border-radius: 16px;
+    align-items: center;
+    padding-top:80px;
+    margin-top: 30px;
+    max-width: 1340px;
+    max-height: 439px;
+}
+.new-park button{
+    border-radius: 8px;
+    background: #F00;
+    padding: 16px 32px;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.new-park h3{
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 25px;
+}
+.new-park h3 span{
+    color: #F00;
+}
+/* NEW BEST OFFER*/
+.offer2{
+    display: flex;
+    margin-top: 80px;
+    gap: 20px;
+    align-items: center;
+}
+
+.best-offer .offer2 .ellipse{
+    border-radius: 230px;
+    border: 10px solid #F00;
+    padding: 30px;
+    width: 364.844px;
+    height: 364.844px;
+    display: flex;
+    margin-right: 60px;
+    margin-left: 30px;
+    
+}
+.year{
+    color:#F00;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom:-35px;
+}
+.up-coming-offer{
+    color: #F00;
+    font-size: 1.5;
+    font-weight: 500;
+}
+.offer2 h1{
+    font-size: 2.8rem;
+    font-weight: 900;
+    margin-top: 0;
+    margin-bottom: 0;
+    
+}
+.offer2 .paragraph p{
+    padding-top: 25px;
+}
+.section-4 .function{
+    text-align: center;
+}
+
+/* function */
+.section-4{
+    margin-top: 80px;  
+}
+
+.function h1{
+    font-size: 4rem;
+    margin-bottom:23px;
+    margin-top: -10px;
+    font-family: Merriweather;
+    font-weight: 900;
+}
+.function p{
+    margin-top: -15px;
+}
+
+.color-red{
+    color: #F00;
+}
+.offer-img{
+    background-image: url(../images/Rectangle\ 1.png);
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items:center;
+    background-position: right;
+    width: 372px;
+    height: 432px;
+    margin-left: 62%;
+    border-radius: 8px;
+}
+.offer-img img{
+    margin-left: -45%;
+    margin-top: 20%;
+}
+.img-bac{
+    background-image: url(../images/Rectangle\ 2.png);
+    width: 100%;
+    height:160px;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+}
+
+.img-bac img{
+    width: 383px;
+    height: 280px;
+    margin-bottom:21px;
+    margin-left: 70px;
+    margin-top: -180px;
+}
+
+ /*THE BEST GIF */
+ .section5{
+    margin-top: 80px;
+ }
+ .heder{
+    font-weight: 800;
+    font-size: 3rem;
+    margin-bottom: -8px;
+    margin-top: -15px;
+}
+.product-pic .img3{
+    display:grid;
+    grid-template-columns:auto auto auto;
+    gap: 10px;
+    justify-content: start;
+    align-content: space-between;
+    
+}
+.product-pic .img3 img{
+    width: 320px;
+    height: 320px;
+}
+.footer-section button{
+    width: 250px;
+    height: 35px;
+    text-align: end;
+    border-radius: 90px;
+    background-color: #F00;
+    background-position: 20px right;
+ 
+}
+
+/* footer section */
+
+.footer-section{
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05); 
+    height: auto; 
+    margin-top: 80px;
+}
+.footer-section img{
+    margin-left: 43%;
+    margin-top: 50px;
+}
+.footer-desciption{
+    text-align: center;
+}
+.button-style .fast{
+    width: 350px;
+    height: 55px;
+    border: none;
+    outline: none;
+    margin-left: 24%;
+    padding: 0 25px;
+    margin-bottom: 60px;
+    border-radius: 28px 0px 0px 28px;
+
+}
+.button-style .secend{
+    position: relative;
+    width: 90px;
+    height: 55px;
+    border: none;
+    outline: none;
+    left:-10px;
+    background: #F00;
+    border-radius: 0px 28px 28px 0px;
+    cursor: pointer;
+    padding: 0 10px;
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 600px;
 }
