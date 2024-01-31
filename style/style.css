@@ -17,7 +17,7 @@ main{
     width:auto;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
+    
     background-position: center;
     text-align: center;
     align-items: center;
@@ -205,7 +205,6 @@ margin-top: 6px;
     font-size: 4rem;
     margin-bottom:23px;
     margin-top: -10px;
-    font-family: Merriweather;
     font-weight: 900;
 }
 .function p{
@@ -275,9 +274,7 @@ margin-top: 6px;
     border-radius: 90px;
     background-color: #F00;
     background-position: 20px right;
- 
 }
-
 /* footer section */
 
 .footer-section{
@@ -302,7 +299,6 @@ margin-top: 6px;
     padding: 0 25px;
     margin-bottom: 60px;
     border-radius: 28px 0px 0px 28px;
-
 }
 .button-style .secend{
     position: relative;
@@ -318,4 +314,94 @@ margin-top: 6px;
     color: #FFF;
     font-size: 1rem;
     font-weight: 600px;
+}
+/* main footer */
+footer{
+    background: black;
+    color: #FFF;
+    height: 400px;
+}
+ footer h5{
+    margin: 50px;
+    padding-top: 50px;
+    line-height: 25px;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.footer-des{
+    display: flex;
+    justify-content: end;
+    text-align: center;
+    align-items: center;
+    margin-top: -125px;
+
+}
+.footer-des p{
+    color: #FFF;
+
+}
+.footer2{
+    display: flex;
+    gap: 10px;
+    justify-content: end;
+    align-items: center;
+    margin-right: -133px;
+  
+    
+}
+.footer2 img{
+    height: 25px;
+    width: 25px;
+}
+.footer3{
+    display: flex;
+    margin-right: 50px;
+    gap: 10px;
+    justify-items:center;
+    align-items: center;
+    margin-top:50px;
+   
+}
+.footer3 img{
+    width: 24px;
+    height: 24px;
+}
+.footer3 a{
+    text-decoration: none;
+    color: #FFF;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 40px;
+}
+.icon img{
+    width: 60px;
+    height: 60px;
+}
+.copy-right{
+    display: flex;
+    justify-content:space-around;
+    gap: 50%;
+}
+.copy-right button{
+    text-decoration: none;
+    color: #FFF;
+    background-color: black;
+    border:none;
+    font-size: 1.5rem;
+    margin-right: 50px;
+    margin-bottom: 15px;
+    margin-top: 0px;
+    cursor: pointer;
+}
+.copy-right h5{
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin-top: -0px; 
 }
